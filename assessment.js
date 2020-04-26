@@ -43,7 +43,8 @@ assessmentButton.onclick = () => {
   anchor.setAttribute('href', hrefValue);
   anchor.className = 'twitter-hashtag-button';
   anchor.setAttribute('data-text', result);
-  anchor.setAttribute('data-url', 'https://kunifu-study.github.io/assessment/assessment.html');
+  const shareUrl = 'https://kunifu-study.github.io/assessment/assessment.html';
+  anchor.setAttribute('data-url', shareUrl);
   anchor.innerText = 'Tweet #あなたのいいところ';
   tweetDivided.appendChild(anchor);
 
