@@ -42,7 +42,7 @@ assessmentButton.onclick = () => {
     '&ref_src=twsrc%5Etfw';
   anchor.setAttribute('href', hrefValue);
   anchor.className = 'twitter-hashtag-button';
-  anchor.setAttribute('data-text', result);
+  anchor.setAttribute('data-text', result + 'https://kunifu-study.github.io/assessment/assessment.html');
   anchor.innerText = 'Tweet #あなたのいいところ';
   tweetDivided.appendChild(anchor);
 
